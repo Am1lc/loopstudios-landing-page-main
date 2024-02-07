@@ -11,10 +11,10 @@ The designs were created to the following widths:
 
 ### Primary
 
-- White: hsl(0, 0%, 100%)
-- Black: hsl(0, 0%, 0%)
-- Dark Gray: hsl(0, 0%, 55%)
-- Very Dark Gray: hsl(0, 0%, 41%)
+- White: #ffffff
+- Black: #000000
+- Dark Gray: #8c8c8c
+- Very Dark Gray: #696969
 
 ### Neutral
 
