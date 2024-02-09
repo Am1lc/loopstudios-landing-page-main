@@ -15,6 +15,18 @@
   font-style: normal;
 }
 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
 :root {
     --White: #ffffff;
@@ -34,3 +46,13 @@
 html {
     font-size: 15px;
 }
+
+.hero-image, .hero-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 75vh;
+  width: 100%;
+}
+
