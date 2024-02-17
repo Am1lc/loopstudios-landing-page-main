@@ -1,0 +1,84 @@
+.header {
+    position: relative;
+    height: 65vh;
+  
+    &_wrapper {
+      padding: 2.5rem 0;
+    }
+  
+    &_bg-img-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      height: 65vh;
+      width: 100%;
+    }
+  
+    &_bg-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    &_logo-img {
+      width: 60%;
+      object-fit: cover;
+      position: relative;
+      z-index: 2;
+    }
+  
+    &_text-container {
+      border: 0.3rem solid var(--color-white);
+      padding: 2rem;
+      margin-top: 7rem;
+    }
+  
+    &_text {
+      color: var(--color-white);
+      font-family: var(--ff-josefin);
+      font-size: 3.2rem;
+      text-transform: uppercase;
+    }
+  
+    @media (min-width: 548px) and (max-width: 920px) {
+      &_text-container {
+        border-radius: 0.4rem;
+        width: 38rem;
+        padding: 2.5rem;
+        padding-right: 5.2rem;
+        margin-top: 8.5rem;
+      }
+    }
+  
+    @media (min-width: 920px) {
+      height: 78vh;
+  
+      &_wrapper {
+        padding-top: 5.5rem;
+      }
+  
+      &_bg-img-container {
+        height: 78vh;
+      }
+  
+      &_text-container {
+        border-radius: 0.4rem;
+        width: 70rem;
+        padding: 2.5rem;
+        padding-right: 3rem;
+        margin-top: 8.5rem;
+      }
+  
+      &_text {
+        font-size: 6rem;
+        letter-spacing: 0.3rem;
+      }
+    }
+  }
+  
+  .header:has(.hamburger_input-checkbox:checked) + .main {
+    position: relative;
+    z-index: -1;
+  }
+  
