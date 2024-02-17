@@ -17,51 +17,202 @@
 </head>
 <body>
 
-  
-    <header>
-      <div class="max-width-container">
-        <div class="header_wrapper flex space-between items-center">
-          <div class="header_bg-img-container"></div>
-          <div class="header_logo-container"></div>
-          <nav class="nav show">
-            <ul class="nav_nav">
-              <li class="nav_item">About</li>
-              <li class="nav_item">Careers</li>
-              <li class="nav_item">Events</li>
-              <li class="nav_item">Products</li>
-              <li class="nav_item">Support</li>
+  <header class="header">
+
+    <div class="max-width-container">
+
+      <div class="header_wrapper flex space-between items-center">
+
+        <div class="header_bg-img-container">
+          <img srcset="./images/mobile/image-hero.jpg 300w, ./images/mobile/image-hero.jpg 300w" sizes="(max-width: 767px) 280px, 
+          (min-width: 768px) 800px," src="./images/desktop/image-hero.jpg" alt="a person wearing virtual reality headset" class="header_bg-image">
+        </div>
+
+        <div class="header_logo-container">
+          <img src="./images/logo.svg" alt="logo" class="header_logo-img">
+        </div>
+
+        <div class="hamburger">
+
+          <label class="hamburger_label">
+            <input class="hamburger_input-checkbox" type="checkbox">
+          </label>
+
+        </div>
+        
+        <nav class="nav show">
+          <ul class="nav_nav">
+            <li class="nav_item">
+              <a href="/" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="/" class="nav_link">Careers</a>
+            </li>
+            <li class="nav_item">
+              <a href="/" class="nav_link">Events</a>
+            </li>
+            <li class="nav_item">
+              <a href="/" class="nav_link">Products</a>
+            </li>
+            <li class="nav_item">
+              <a href="/" class="nav_link">Support</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="header_text-container">
+        <h1 class="header_text">
+          Immersive experiences that deliver
+        </h1>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <div class="max-width-container">
+
+      <section class="section section--hero">
+
+        <article class="hero">
+
+          <div class="hero_img-container">
+            <img class="hero_img" src="./images/desktop/image-interactive.jpg" srcset="./images/mobile/image-interactive.jpg 375w, ./images/desktop/image-interactive.jpg 1440w" sizes="(max-width: 375px) 100vw, (max-width: 1440px) 50vw" alt="">
+          </div>
+          <div class="hero_text-container">
+            <h1 class="hero_title">The leader in interactive VR</h1>
+            <p class="hero_text">
+              Founded in 2011, Loopstudios has been producing world-class virtual reality
+              projects for some of the best companies around the globe. Our award-winning
+              creations have transformed businesses through digital experiences that bind
+              to their brand.
+            </p>
+          </div>
+
+        </article>
+
+      </section>
+
+      <section class="section section--creation">
+
+        <div class="section_header">
+
+          <h1 class="section_title">Our creations</h1>
+
+          <a href="/" class="section_header-link section_header-link--all">See all</a>
+
+        </div>
+
+        <div class="creation-card-container">
+
+          <div class="card card--deep-earth">
+            <h2 class="card_title">Deep <span>earth</span></h2>
+          </div>
+
+          <div class="card card--night-arcade">
+            <h2 class="card_title">Night <span>arcade</span></h2>
+          </div>
+
+          <div class="card card--soccer-team-vr">
+            <h2 class="card_title">Soccer <span>team VR</span></h2>
+          </div>
+
+          <div class="card card--grid">
+            <h2 class="card_title">The <span>grid</span></h2>
+          </div>
+
+          <div class="card card--above-vr">
+            <h2 class="card_title">From up <span>above VR</span></h2>
+          </div>
+
+          <div class="card card--borealis">
+            <h2 class="card_title">Pocket <span>borealis</span></h2>
+          </div>
+
+          <div class="card card--curiosity">
+            <h2 class="card_title">The <span>curiosity</span></h2>
+          </div>
+
+          <div class="card card--fisheye">
+            <h2 class="card_title">Make it <span>fisheye</span></h2>
+          </div>
+
+        </div>
+
+        <a href="/" class="section_link section_link--all">See all</a>
+
+      </section>
+
+    </div>
+    
+
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="max-width-container">
+
+      <div class="footer_wrapper">
+
+        <div class="footer_logo-nav-container">
+      
+          <img src="./images/logo.svg" alt="logo" class="footer_logo">
+          <nav class="footer_nav">
+            <ul class="footer_nav_nav">
+              <li class="footer_nav-item">
+                <a class="footer_nav-link" href="">About</a>
+              </li>
+              <li class="footer_nav-item">
+                <a class="footer_nav-link" href="">Careers</a>
+              </li>
+              <li class="footer_nav-item">
+                <a class="footer_nav-link" href="">Events</a>
+              </li>
+              <li class="footer_nav-item">
+                <a class="footer_nav-link" href="">Products</a>
+              </li>
+              <li class="footer_nav-item">
+                <a class="footer_nav-link" href="">Support</a>
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="header_text-container">
-          <h1 class="header_text">
-            Immersive experiences that deliver
-          </h1>
+        <div class="footer_social-media-copywrite-container">
+          <ul>
+            <li class="social-media_item">
+              <a class="social-media_link" href="/"></a>
+              <img src="./images/icon-facebook.svg" alt="">
+            </li>
+            <li class="social-media_item">
+              <a class="social-media_link" href="/"></a>
+              <img src="./images/icon-twitter.svg" alt="">
+            </li>
+            <li class="social-media_item">
+              <a class="social-media_link" href="/"></a>
+              <img src="./images/icon-pinterest.svg" alt="">
+            </li>
+            <li class="social-media_item">
+              <a class="social-media_link" href="/"></a>
+              <img src="./images/icon-instagram.svg" alt="">
+            </li>
+          </ul>
+
+          <p class="footer_copywrite">
+            &copy; 2021 Loopstudios. All rights reserved.
+          </p>
+
         </div>
+
       </div>
-    </header>
-    The leader in interactive VR
-    Founded in 2011, Loopstudios has been producing world-class virtual reality
-    projects for some of the best companies around the globe. Our award-winning
-    creations have transformed businesses through digital experiences that bind
-    to their brand.
-    Our creations
-    See all
-    Deep earth
-    Night arcade
-    Soccer team VR
-    The grid
-    From up above VR
-    Pocket borealis
-    The curiosity
-    Make it fisheye
-    About
-    Careers
-    Events
-    Products
-    Support
-    © 2021 Loopstudios. All rights reserved.
-  </div>
+
+    </div>
+
+  </footer>
 
 </body>
 </html>
