@@ -246,8 +246,6 @@ body {
     height: auto;
   }
   .nav_nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
     column-gap: 4rem;
@@ -257,8 +255,6 @@ body {
   .nav_item {
     font-family: inherit;
     font-size: 1.4rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     align-items: center;
