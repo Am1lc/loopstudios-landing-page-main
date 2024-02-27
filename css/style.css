@@ -532,28 +532,28 @@ body {
     font-size: 2rem;
   }
   .card--deep-earth {
-    background-image: url(../../images/desktop/image-deep-earth.jpg);
+    background-image: url(../images/desktop/image-deep-earth.jpg);
   }
   .card--night-arcade {
-    background-image: url(../../images/desktop/image-night-arcade.jpg);
+    background-image: url(../images/desktop/image-night-arcade.jpg);
   }
   .card--soccer-team-vr {
-    background-image: url(../../images/desktop/image-soccer-team.jpg);
+    background-image: url(../images/desktop/image-soccer-team.jpg);
   }
   .card--grid {
-    background-image: url(../../images/desktop/image-grid.jpg);
+    background-image: url(../images/desktop/image-grid.jpg);
   }
   .card--above-vr {
-    background-image: url(../../images/desktop/image-from-above.jpg);
+    background-image: url(../images/desktop/image-from-above.jpg);
   }
   .card--borealis {
-    background-image: url(../../images/desktop/image-pocket-borealis.jpg);
+    background-image: url(../images/desktop/image-pocket-borealis.jpg);
   }
   .card--curiosity {
-    background-image: url(../../images/desktop/image-curiosity.jpg);
+    background-image: url(../images/desktop/image-curiosity.jpg);
   }
   .card--fisheye {
-    background-image: url(../../images/desktop/image-fisheye.jpg);
+    background-image: url(../images/desktop/image-fisheye.jpg);
   }
   .card_title {
     font-size: 2.4rem;
